@@ -10,7 +10,8 @@
   <meta name="csrf-token" content="{{ csrf_token() }}">
   {{-- csrf-token 标签是为了方便前端的 JavaScript 脚本获取 CSRF 令牌 --}}
 
-  <title>@yield('title', 'LaraBBS') - Laravel 进阶教程</title>
+  <title>@yield('title', 'LABBS') - Laravel 进阶教程</title>
+  <meta name="description" content="@yield('description', 'LABBS 爱好者社区')" />
 
   <!-- Styles -->
   <link href="{{ mix('css/app.css') }}" rel="stylesheet">
@@ -43,7 +44,7 @@
   <script src="{{ mix('js/app.js') }}"></script>
 
   @yield('scripts')
-  
+
 </body>
 
 </html>
