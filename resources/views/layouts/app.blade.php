@@ -40,6 +40,10 @@
     {{-- 加载页面尾部导航区块的子模板 --}}
   </div>
 
+  @if (app()->isLocal())
+    @include('sudosu::user-selector')
+  @endif
+
   <!-- Scripts -->
   <script src="{{ mix('js/app.js') }}"></script>
 
