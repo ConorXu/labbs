@@ -10,8 +10,9 @@
   <meta name="csrf-token" content="{{ csrf_token() }}">
   {{-- csrf-token 标签是为了方便前端的 JavaScript 脚本获取 CSRF 令牌 --}}
 
-  <title>@yield('title', 'LABBS') - Laravel 进阶教程</title>
-  <meta name="description" content="@yield('description', 'LABBS 爱好者社区')" />
+  <title>@yield('title', 'LABBS') - {{ setting('site_name', 'Laravel 进阶教程') }}</title>
+  <meta name="description" content="@yield('description', setting('seo_description', 'LABBS 爱好者社区。'))" />
+  <meta name="keywords" content="@yield('keyword', setting('seo_keyword', 'LABBS,社区,论坛,开发者论坛'))" />
 
   <!-- Styles -->
   <link href="{{ mix('css/app.css') }}" rel="stylesheet">
