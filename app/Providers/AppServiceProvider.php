@@ -27,5 +27,6 @@ class AppServiceProvider extends ServiceProvider
     {
         
         Topic::observe(TopicObserver::class);            // 新增 3
+        \App\Models\Reply::observe(\App\Observers\ReplyObserver::class);
     }
 }
