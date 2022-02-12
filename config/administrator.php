@@ -49,9 +49,11 @@ return array(
         ],
         '站点管理' => [
             'settings.site',
+            'links',
         ],
-        // 用来作为后台主页的菜单条目，由 `use_dashboard` 选项决定，菜单指的是 `menu` 选项
-        'home_page' => 'topics',
+
+        // // 用来作为后台主页的菜单条目，由 `use_dashboard` 选项决定，菜单指的是 `menu` 选项
+        // 'home_page' => 'topics',
     ],
 
     /*
