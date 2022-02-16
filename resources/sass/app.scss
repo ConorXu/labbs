@@ -15,10 +15,15 @@
 body {
   font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
   font-size: 14px;
-  font-color: #495371;
-  //background-color: #F6F2D4;
-
+  font-color: #404b69;
+  background: url(bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+
 
 /* header */
 
@@ -26,12 +31,14 @@ body {
   border-color: #e7e7e7;
   background-color: #74959A;
   box-shadow: 0px 1px 11px 2px rgba(42, 42, 42, 0.1);
-  border-top: 4px solid #495371;
+  //border-top: 4px solid #495371;
   border-bottom: 1px solid #e8e8e8;
   margin-bottom: 40px;
   margin-top: 0px;
 }
 
+
+//页脚固定
 /* Sticky footer styles */
 html {
   position: relative;
@@ -65,12 +72,13 @@ body {
     }
   }
 }
-
+//
 
 /* Topic Index Page */
 .topics-index-page, .categories-show-page .root-page {
   .topic-list {
     .nav>li>a {
+
       position: relative;
       display: block;
       padding: 5px 14px;
@@ -91,7 +99,7 @@ body {
       }
     }
 
-    .badge {
+    .badge {//话题数气泡色
       background-color: #d8d8d8;
     }
 
@@ -99,13 +107,14 @@ body {
       margin-top: 12px;
       margin-bottom: 12px;
       border: 0;
-      border-top: 1px solid #dcebf5;
+      border-top: 1px solid #404b69;//话题分割线
     }
   }
 }
 
 /* Add container and footer space */
 #app > div.container {
+  //话题表格与底栏距离
   margin-bottom: 100px;
 }
 
@@ -120,7 +129,7 @@ body {
 
 .topics-show-page {
 
-    .card {
+    .card {//话题作者简介
         padding: 15px;
 
         h1 {

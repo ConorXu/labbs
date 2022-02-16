@@ -2,6 +2,12 @@
 
 use Faker\Generator as Faker;
 
+
+
+// $introduction = [
+    
+// ];
+
 $factory->define(App\Models\Topic::class, function (Faker $faker) {
     $sentence = $faker->sentence();
 
@@ -15,7 +21,7 @@ $factory->define(App\Models\Topic::class, function (Faker $faker) {
         'title' => $sentence,
         'body' => $faker->text(),
         'excerpt' => $sentence,
-        'user_id' => $faker->randomElement([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]),
+        'user_id' => $faker->randomElement([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]),
         'category_id' => $faker->randomElement([1, 2, 3, 4]),
         'created_at' => $created_at,
         'updated_at' => $updated_at,
