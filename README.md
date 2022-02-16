@@ -1,7 +1,7 @@
 
 # 基于Laravel框架的文学论坛
 
-[Laravel文学论坛](http://qiniu.qqphp.com/uugai.com_1573111132577.png)
+![Laravel文学论坛](https://github.com/ConorXu/labbs/raw/master/shouye/shouye.png)
 
 ### 简介
  1. 采用 Laravel 7 版本框架搭建
