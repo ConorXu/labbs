@@ -20,7 +20,8 @@ class UsersTableSeeder extends Seeder
         $user = User::find(1);
         $user->name = 'Conor';
         $user->email = 'Conor@example.com';
-        $user->avatar = config('app.url') . '/uploads/images/avatars/管理员头像图标.png';
+        $user->avatar = 'https://cdn.learnku.com/uploads/images/201710/30/1/TrJS40Ey5k.png';
+        // config('app.url') . '/uploads/images/avatars/管理员头像图标.png';
         //'https://cdn.learnku.com/uploads/images/201710/14/1/s5ehp11z6s.png';
         $user->save();
 

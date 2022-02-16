@@ -8,22 +8,22 @@ use Illuminate\Support\Str;
 
 // 头像假数据
 $avatars = [
-    config('app.url') . '/uploads/images/avatars/方正黄草简体.png',
-    config('app.url') . '/uploads/images/avatars/方正狂草简繁.png',
-    config('app.url') . '/uploads/images/avatars/经典繁体毛楷.png',
-    config('app.url') . '/uploads/images/avatars/李佺标准草书.png',
-    config('app.url') . '/uploads/images/avatars/李旭科毛笔行.png',
-    config('app.url') . '/uploads/images/avatars/毛泽东毛笔字.png',
-    config('app.url') . '/uploads/images/avatars/迷你简启简体.png',
-    config('app.url') . '/uploads/images/avatars/向佳红毛笔字.png',
-    config('app.url') . '/uploads/images/avatars/邢体草书简体.png',
-    config('app.url') . '/uploads/images/avatars/钟齐流江草体.png',
-    // 'https://cdn.learnku.com/uploads/images/201710/14/1/s5ehp11z6s.png',
-    // 'https://cdn.learnku.com/uploads/images/201710/14/1/Lhd1SHqu86.png',
-    // 'https://cdn.learnku.com/uploads/images/201710/14/1/LOnMrqbHJn.png',
-    // 'https://cdn.learnku.com/uploads/images/201710/14/1/xAuDMxteQy.png',
-    // 'https://cdn.learnku.com/uploads/images/201710/14/1/ZqM7iaP4CR.png',
-    // 'https://cdn.learnku.com/uploads/images/201710/14/1/NDnzMutoxX.png',
+    // config('app.url') . '/uploads/images/avatars/方正黄草简体.png',
+    // config('app.url') . '/uploads/images/avatars/方正狂草简繁.png',
+    // config('app.url') . '/uploads/images/avatars/经典繁体毛楷.png',
+    // config('app.url') . '/uploads/images/avatars/李佺标准草书.png',
+    // config('app.url') . '/uploads/images/avatars/李旭科毛笔行.png',
+    // config('app.url') . '/uploads/images/avatars/毛泽东毛笔字.png',
+    // config('app.url') . '/uploads/images/avatars/迷你简启简体.png',
+    // config('app.url') . '/uploads/images/avatars/向佳红毛笔字.png',
+    // config('app.url') . '/uploads/images/avatars/邢体草书简体.png',
+    // config('app.url') . '/uploads/images/avatars/钟齐流江草体.png',
+    'https://cdn.learnku.com/uploads/images/201710/14/1/s5ehp11z6s.png',
+    'https://cdn.learnku.com/uploads/images/201710/14/1/Lhd1SHqu86.png',
+    'https://cdn.learnku.com/uploads/images/201710/14/1/LOnMrqbHJn.png',
+    'https://cdn.learnku.com/uploads/images/201710/14/1/xAuDMxteQy.png',
+    'https://cdn.learnku.com/uploads/images/201710/14/1/ZqM7iaP4CR.png',
+    'https://cdn.learnku.com/uploads/images/201710/14/1/NDnzMutoxX.png',
 ];
 
 //个人简介假数据
